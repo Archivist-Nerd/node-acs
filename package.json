@@ -1,6 +1,6 @@
 {
   "name": "@archivist/acs",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "_cmd": "acs",
   "description": "Archivist's Caching Server 'HTTP'",
   "copy": "Copyright (c) 2020 Archivist-Nerd",
