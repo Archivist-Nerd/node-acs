@@ -1,0 +1,47 @@
+{
+  "name": "@archivistnerd/acs",
+  "version": "0.2.1",
+  "_cmd": "acs",
+  "description": "Archivist's Caching Server 'HTTP'",
+  "copy": "Copyright (c) 2020 Archivist-Nerd",
+  "main": "./bin/cli.js",
+  "preferGlobal": "true",
+  "bin": {
+    "acs": "./bin/cli.js"
+  },
+  "files": [
+    "./bin/cli.js",
+    "./src/acs.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Archivist",
+    "Nerd",
+    "HTTP",
+    "Server",
+    "Caching"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Archivist-Nerd/node-acs/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/Archivist-Nerd/node-acs/issues"
+  },
+  "repository": {
+    "url": "https://github.com/Archivist-Nerd/node-acs.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Archivist Nerd",
+    "email": "a.Nerd.Archivist@gmail.com",
+    "url": "https://github.com/Archivist-Nerd"
+  },
+  "dependencies": {
+    "@archivistnerd/filecache": "^1.0.0",
+    "@archivistnerd/onkeypress": "^1.0.1",
+    "chalk": "^4.1.0",
+    "mime": "^2.4.6",
+    "yargs": "^16.0.3"
+  }
+}
