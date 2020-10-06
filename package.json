@@ -1,10 +1,10 @@
 {
   "name": "@archivist/acs",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "_cmd": "acs",
   "description": "Archivist's Caching Server 'HTTP'",
   "copy": "Copyright (c) 2020 Archivist-Nerd",
-  "main": "./src/acs.js",
+  "main": "./acs.js",
   "preferGlobal": "true",
   "bin": {
     "acs": "./bin/cli.js"
@@ -34,7 +34,7 @@
     "url": "https://github.com/Archivist-Nerd"
   },
   "dependencies": {
-    "@archivistnerd/filecache": "^1.0.0",
+    "@archivistnerd/filecache": "^1.0.2",
     "@archivistnerd/onkeypress": "^1.0.1",
     "chalk": "^4.1.0",
     "mime": "^2.4.6",
