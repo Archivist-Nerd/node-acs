@@ -1,18 +1,14 @@
 {
-  "name": "@archivistnerd/acs",
-  "version": "0.2.1",
+  "name": "@archivist/acs",
+  "version": "0.2.4",
   "_cmd": "acs",
   "description": "Archivist's Caching Server 'HTTP'",
   "copy": "Copyright (c) 2020 Archivist-Nerd",
-  "main": "./bin/cli.js",
+  "main": "./src/acs.js",
   "preferGlobal": "true",
   "bin": {
     "acs": "./bin/cli.js"
   },
-  "files": [
-    "./bin/cli.js",
-    "./src/acs.js"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
