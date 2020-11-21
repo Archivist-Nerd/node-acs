@@ -3,7 +3,7 @@
 
 Archivist's Caching Server 'HTTP'
 
-> Calls a callback function after key has been pressed (terminal)
+> A simple tool for running local HTTP websites from folders or a cached file.
 
 ## Installation
 
